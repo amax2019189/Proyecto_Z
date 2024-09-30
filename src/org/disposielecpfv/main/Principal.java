@@ -13,6 +13,7 @@ import javafx.fxml.JavaFXBuilderFactory;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
+import org.disposielecpfv.controlador.ControladorMenuPrincipal;
 import org.disposielecpfv.db.Conexion;
 
 /**
@@ -20,7 +21,7 @@ import org.disposielecpfv.db.Conexion;
  * @author Carlos Zeta
  */
 public class Principal extends Application{
-    private final String PAQUETE_VISTA = "/org/disposielecpfv/org.disposielecpfv.vista/";
+    private final String PAQUETE_VISTA = "/org/disposielecpfv/vista/";
     private Stage escenario;
     private Scene escena;
 
@@ -31,6 +32,15 @@ public class Principal extends Application{
         escenario.getIcons().add(new Image("/org/disposielecpfv/imagenes/LogoPrincipal.png"));
         escenario.setResizable(false);
         escenario.show();
+    }
+    
+    public void menuPrincipal(){
+        try {
+            ControladorMenuPrincipal menu = (ControladorMenuPrincipal)cambiarEscena("MenuPrincipal.fxml",574,623);
+            menu.setEscenario(this);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
     
     public static void main(String[] args) {
