@@ -9,23 +9,23 @@
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.text.Text?>
 
-<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.disposielectpfv.vista.VistaLoginController">
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <AnchorPane prefHeight="200.0" prefWidth="200.0">
          <children>
-            <AnchorPane layoutX="-4.0" layoutY="1.0" prefHeight="400.0" prefWidth="306.0" styleClass="left-form" stylesheets="@VistaLogin.css">
+            <AnchorPane layoutX="-4.0" layoutY="1.0" prefHeight="400.0" prefWidth="306.0" styleClass="left-form" stylesheets="@../estilo/VistaLogin.css">
                <children>
                   <Circle fill="DODGERBLUE" layoutX="145.0" layoutY="142.0" radius="58.0" stroke="BLACK" strokeType="INSIDE" />
                   <Circle fill="DODGERBLUE" layoutX="145.0" layoutY="276.0" radius="76.0" stroke="BLACK" strokeType="INSIDE" />
                </children></AnchorPane>
-            <AnchorPane layoutX="300.0" layoutY="3.0" prefHeight="400.0" prefWidth="300.0" stylesheets="@VistaLogin.css">
+            <AnchorPane layoutX="300.0" layoutY="3.0" prefHeight="400.0" prefWidth="300.0" stylesheets="@../estilo/VistaLogin.css">
                <children>
                   <PasswordField fx:id="txtPassword" layoutX="55.0" layoutY="206.0" promptText="Contraseña" />
-                  <BottomNavigationButton fx:id="btnLogin" layoutX="43.0" layoutY="281.0" prefHeight="35.0" prefWidth="64.0" styleClass="login-btn" stylesheets="@VistaLogin.css" text="Login" />
-                  <BottomNavigationButton fx:id="btnSignup" layoutX="149.0" layoutY="281.0" prefHeight="35.0" prefWidth="73.0" styleClass="registrarse-btn" stylesheets="@VistaLogin.css" text="Sign in" />
+                  <BottomNavigationButton fx:id="btnLogin" layoutX="43.0" layoutY="281.0" prefHeight="35.0" prefWidth="64.0" styleClass="login-btn" stylesheets="@../estilo/VistaLogin.css" text="Login" />
+                  <BottomNavigationButton fx:id="btnSignup" layoutX="149.0" layoutY="281.0" prefHeight="35.0" prefWidth="73.0" styleClass="registrarse-btn" stylesheets="@../estilo/VistaLogin.css" text="Sign in" />
                   <Label fx:id="btnCerrar" layoutX="258.0" layoutY="14.0" text="X" />
                   <Text fill="#542db5" layoutX="114.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¡Bienvenido!" />
-                  <TextField fx:id="usuario" layoutX="57.0" layoutY="126.0" promptText="Usuario" />
+                  <TextField fx:id="txtUsuario" layoutX="57.0" layoutY="126.0" promptText="Usuario" />
                </children>
             </AnchorPane>
          </children>
