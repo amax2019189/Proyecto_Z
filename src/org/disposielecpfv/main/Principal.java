@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package org.disposielecpfv.main;
-
 import java.io.InputStream;
 import javafx.scene.image.Image;
 import javafx.application.Application;
@@ -20,7 +19,7 @@ import org.disposielecpfv.db.Conexion;
  * @author Carlos Zeta
  */
 public class Principal extends Application{
-    private final String PAQUETE_VISTA = "/org/disposielecpfv/org.disposielecpfv.vista/";
+    private final String PAQUETE_VISTA = "/org/disposielecpfv/vista/";
     private Stage escenario;
     private Scene escena;
 
