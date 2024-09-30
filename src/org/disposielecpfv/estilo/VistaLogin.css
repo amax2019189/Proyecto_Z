@@ -1,0 +1,91 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Sep 2, 2024, 7:47:11 AM
+    Author     : denysorozco
+*/
+
+.left-form {
+    -fx-background-color: linear-gradient(to left, rgba(2,0,36,1) 0%, rgba(121,9,106,1) 17%, rgba(0,212,255,1) 100%);
+    -fx-border-color: #000;
+    -fx-border-width: .4px 0px .4px .4px;
+}
+
+
+.right-form{
+    -fx-background-color:#fff;
+    -fx-border-color:#000;
+    -fx-border-width:.4px .4px .4px 0px;
+}
+
+.close-btn{
+    -fx-background-color: transparent;    
+}
+
+.close-btn:hover{
+    -fx-background-color:#d71313;
+    -fx-text-fill:#fff;
+}
+
+.textfield{
+    -fx-background-color:linear-gradient(to bottom, #efefef, #eee);
+    -fx-background-radius: 4px;
+    -fx-border-color:#000;
+    -fx-border-width:.4px;
+    -fx-border-radius:4px;
+    -fx-font-size:13px;
+    -fx-font-family:"Arial";
+    -fx-cursor:hand;
+}
+
+.textfield:focused{
+    -fx-background-color:#fff;
+    -fx-border-color:linear-gradient(to bottom right, #272b3f, #256b51);
+    border-width:.8px;
+}
+
+.login-btn{
+    -fx-background-color:linear-gradient(to bottom, #720d0d, #EB5757);
+    -fx-background-radius:5px;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px;
+    -fx-font-family:"Arial";
+    -fx-cursor:hand;
+}
+
+.login-btn:hover{
+    -fx-background-color:linear-gradient(to bottom, #EB5757,#720d0d);
+}
+
+.login-btn:pressed{
+    -fx-background-color:linear-gradient(to bottom, #720d0d, #EB5757);
+    -fx-background-radius:5px;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px;
+    -fx-font-family:"Arial";
+    -fx-cursor:hand;
+}
+
+.registrarse-btn{
+    -fx-background-color:linear-gradient(to bottom, #720d0d, #EB5757);
+    -fx-background-radius:5px;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px;
+    -fx-font-family:"Arial";
+    -fx-cursor:hand;
+}
+
+.registrarse-btn:hover{
+    -fx-background-color:linear-gradient(to bottom, #EB5757,#720d0d);
+}
+
+.registrarse-btn:pressed{
+    -fx-background-color:linear-gradient(to bottom, #720d0d, #EB5757);
+    -fx-background-radius:5px;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px;
+    -fx-fon-family:"Arial";
+    -fx-cursor:hand;    
+}
