@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package org.disposielecpfv.main;
-
 import java.io.InputStream;
 import javafx.scene.image.Image;
 import javafx.application.Application;

@@ -10,7 +10,6 @@ package org.disposielecpfv.db;
  */
 import java.sql.Connection;
 import java.sql.SQLException;
-import com.mysql.jdbc.Driver;
 import java.sql.DriverManager;
 
 public class Conexion {
@@ -24,6 +23,7 @@ public class Conexion {
 //            conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/DBTonysKinal2023?userSSL=false","root","$oport3");
             conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/DispositivosElectronicosPFV?userSSL=false","root","admin");
             System.out.println("Conexion exitosa");
+            //conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/DispositivosElectronicosPFV?userSSL=false","root","123456");
         } catch(ClassNotFoundException e) {
             e.printStackTrace();
         } catch(InstantiationException e){
